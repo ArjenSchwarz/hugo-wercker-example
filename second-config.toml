@@ -1,0 +1,3 @@
+baseurl = "http://hugo-wercker.ig.nore.me"
+languageCode = "en-us"
+title = "Second config"
