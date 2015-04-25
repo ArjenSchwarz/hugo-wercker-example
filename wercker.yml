@@ -4,7 +4,8 @@ build:
     - arjen/hugo-build:
         version: 0.13
         theme: herring-cove
-        flags: --config=second-config.toml --buildDrafts=true
+        config: second-config.toml
+        flags: --buildDrafts=true
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
