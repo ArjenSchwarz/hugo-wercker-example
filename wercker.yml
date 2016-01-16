@@ -5,8 +5,17 @@ build:
         version: "HEAD"
         theme: herring-cove
         flags: --buildDrafts=true
+    - script:
+        name: ls stuff
+        code: |
+          ls -haltr /pipeline/source/public
+
 deploy:
   steps:
+    - script:
+        name: ls stuff
+        code: |
+          ls -haltr /pipeline/source/public
     - install-packages:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
