@@ -9,14 +9,13 @@ build:
         name: ls stuff
         code: |
           ls -haltr /pipeline/source/public
-    - internal/store-container
 
 deploy:
   steps:
     - script:
         name: ls stuff
         code: |
-          ls -haltr /pipeline/source/public
+          ls -haltr /pipeline/output
     - install-packages:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
