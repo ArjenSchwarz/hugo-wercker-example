@@ -9,6 +9,7 @@ build:
         name: ls stuff
         code: |
           ls -haltr /pipeline/source/public
+    - internal/store-container
 
 deploy:
   steps:
