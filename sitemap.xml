@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://hugo-wercker.ig.nore.me/about/</loc>
+    <lastmod>2015-01-11T13:42:38+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo-wercker.ig.nore.me/</loc>
+    <lastmod>2015-01-11T13:42:38+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
