@@ -8,3 +8,5 @@ title = "about"
 This site is for illustration purposes only, in order to demonstrate using Wercker for automated deployments of Hugo.
 
 Now updated to test that it works with Step version 1.15.2
+
+And another test for seeing about the 2.x releases
