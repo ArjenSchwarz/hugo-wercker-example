@@ -4,6 +4,7 @@ build:
     - arjen/hugo-build:
         theme: herring-cove
         flags: --buildDrafts=true
+        version: 0.53
     - script:
         name: ls stuff
         code: |
